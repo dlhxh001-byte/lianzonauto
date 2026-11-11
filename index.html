@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Lianzon Auto | Redirecting to your language</title>
+  <meta name="description" content="Lianzon Auto exports vehicles and automotive spare parts from China.">
+  <link rel="canonical" href="https://lianzonauto.com/en/">
+  <script>
+    (function(){
+      var supported=['zh','en','ru','ar','es'];
+      var preferences=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'']).map(function(x){return String(x).toLowerCase();});
+      var language='en';
+      for(var i=0;i<preferences.length;i++){
+        var candidate=preferences[i].split('-')[0];
+        if(supported.indexOf(candidate)!==-1){language=candidate;break;}
+      }
+      // Relative URL also works when this file is opened directly from disk.
+      window.location.replace('./'+language+'/index.html');
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=./en/index.html"></noscript>
+</head>
+<body>
+  <p>Lianzon Auto — redirecting to your language.</p>
+  <p><a href="./en/index.html">Continue in English</a></p>
+</body>
+</html>

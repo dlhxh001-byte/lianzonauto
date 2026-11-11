@@ -1,0 +1,87 @@
+LIANZON AUTO V8 — GLOBAL BRAND + MARKET HUB QA REPORT
+Original baseline test date: 2026-11-10
+Revision test date: 2026-11-11
+Package: Lianzon_Auto_V8_Global_Brand_Markets_Updated_20261111.zip
+
+1. DELIVERY STRUCTURE
+- Five language directories: en, zh, ru, ar, es.
+- 17 independent static HTML pages per language; 85 localized pages total.
+- Six vehicle model sourcing guides in each language (Tucson, Sportage, CS55 Plus, Haval Jolion, Jetour X70, Camry).
+- Kazakhstan has a dedicated market guide in all five languages.
+- Each language has a global Markets hub; Kazakhstan is presented as one focus market, not as the exclusive service area.
+- Each language has a used-vehicle hub, a separate auto-parts wholesale hub, four parts-category pages, service and contact pages.
+- Root language redirect plus five root compatibility aliases are included (six root-level HTML files); localized pages remain in their language folders.
+
+2. BRAND / CONTENT POSITIONING
+- Global homepage positions Lianzon Auto as a China-based exporter serving international buyers.
+- Two equal commercial lines: whole-vehicle export and wholesale automotive spare-parts procurement.
+- Kazakhstan is accessible from the Markets hub and remains a dedicated focus market, but is not shown as the only destination.
+- International coverage explicitly names Central Asia, Latin America, Africa, Europe and the Middle East.
+- No empty Latin America country pages were generated merely to target keywords; this avoids thin/doorway-style landing pages.
+- Vehicle model pages are sourcing/specification guides, not representations of live inventory or guaranteed prices.
+
+3. ORIGINAL V5 DESIGN AND IMAGE PRESERVATION
+- Original V5 stylesheet is retained byte-for-byte as the prefix of the expanded V8 styles.css; additional styles are appended.
+- All eight original V5 image files are present in /assets and remain byte-identical to the original RAR extraction, verified by SHA-256:
+  mpv.png, favicon.png, sedan.png, premium.png, first-suv.png, ev.png, pickup.png, frist.png.
+- Each of the five localized homepages visibly references the original export-port hero image (frist.png) and all six original vehicle-category images (first-suv.png, sedan.png, ev.png, pickup.png, mpv.png, premium.png).
+- Original image files were not recompressed, renamed or replaced.
+- Desktop floating contact rail (`.contact-rail`) and mobile contact area (`.mobile-contact`) are retained on all 85 localized pages.
+
+4. TECHNICAL SEO / LOCAL LINK CHECKS
+- 85/85 localized pages have a non-empty title, meta description, canonical URL and H1.
+- Titles and descriptions are unique within each language directory.
+- 85/85 localized pages have six hreflang alternates: en, zh-CN, ru, ar, es and x-default.
+- JSON-LD blocks parse as valid JSON on all localized pages.
+- Open Graph and Twitter metadata are included by the page SEO helper.
+- Sitemap contains 85 unique localized URLs, and every sitemap URL resolves to an existing local HTML file.
+- robots.txt references https://lianzonauto.com/sitemap.xml.
+- 1,435 local href/src resource references were resolved; no missing local targets found.
+- Root redirect/compatibility pages are not included as duplicate indexable sitemap targets.
+- Every localized page has a Markets navigation destination; the global navigation does not label Kazakhstan as the only market.
+
+5. LANGUAGE / SCRIPT / STYLE CHECKS
+- Root browser-language redirect was tested in a Node VM with eight locale inputs:
+  zh-CN -> zh; ru-KZ -> ru; ar-SA -> ar; es-MX -> es; en-US -> en;
+  fr-FR -> en fallback; de-DE -> en fallback; zh-Hant-TW -> zh.
+- script.js passes node --check.
+- config.js passes node --check.
+- styles.css parses with zero top-level CSS syntax errors.
+- Arabic localized pages use lang="ar" and dir="rtl".
+- CSS includes responsive breakpoints at 900px, 760px, 600px, 520px and 420px (plus existing V5 rules).
+
+6. BROWSER / RESPONSIVE LIMITATION
+- Static structure, responsive CSS breakpoints, mobile navigation markup/handlers, paths and assets were checked.
+- A complete V8 Chromium visual/interaction run at mobile, tablet and desktop viewports could not be completed in this execution environment. Therefore this report does NOT claim that all V8 pages passed real-browser visual regression or touch testing.
+- After deployment, manually test the main navigation and language switch on at least one iOS/Android browser and one desktop browser, and confirm the live server's HTTP status, redirects, MIME types and cache behaviour.
+
+7. DEPLOYMENT / SEARCH CONSOLE
+- Extract the archive and upload all files and folders inside it directly into the website document root; do not add an outer folder layer.
+- Confirm verified WhatsApp, email, Facebook and Instagram destinations in config.js before launch. Facebook/Instagram URLs remain blank until the actual official profiles are supplied.
+- Submit https://lianzonauto.com/sitemap.xml in Google Search Console after deployment.
+- Indexing, ranking, search traffic and enquiries are not guaranteed by technical SEO; evaluate them using Search Console and analytics after crawling.
+- Market-specific import/tax rules should be checked against current official sources before making a quotation or publishing legal claims.
+
+RESULT
+Static structure, content architecture, SEO metadata, JSON-LD parsing, language fallback logic, local references, stylesheet/script syntax, sitemap targets and original V5 image preservation checks passed. V8 full-browser visual regression and live-domain checks remain deployment-stage items and are explicitly not marked as passed.
+
+
+REVISION UPDATE — 2026-11-11
+- Updated all five localized homepages to present whole-vehicle export and automotive-parts wholesale procurement as equal business lines.
+- Added the Kazakhstan Market Department and International Trade Department positioning.
+- Explicitly listed Central Asia, Latin America, Africa, Europe and the Middle East as international markets.
+- Reworded delivery scope around international logistics and destination delivery agreed by the parties; removed China-domestic handover as a promoted endpoint from the revised market sections and Kazakhstan guide.
+- Connected the five localized Contact forms to the same Formboost endpoint: https://formboost.app/f/mnadoc5l.
+- The online form submits JSON to Formboost and displays success or an email-app fallback link if submission fails.
+- Full browser-based visual regression and a live Formboost submission test were not performed in this environment.
+
+
+5. REVISION STATIC VALIDATION (2026-11-11)
+- Parsed all 85 localized HTML pages; all pages retained a title and H1.
+- All JSON-LD blocks parsed as valid JSON.
+- Confirmed one Contact form in each language directory (five localized copies) and the same Formboost endpoint on all five: https://formboost.app/f/mnadoc5l.
+- Confirmed the form fields, honeypot, subject, redirect and localized status area are present.
+- Confirmed the original V5 CSS is retained byte-for-byte as the prefix of the updated stylesheet.
+- Confirmed all eight original image assets remain byte-identical to the baseline ZIP.
+- JavaScript passed `node --check`.
+- Full browser-based visual regression and cross-device interaction testing could not be completed in this environment. A live Formboost submission was intentionally not sent to avoid creating an unsolicited test inquiry; perform one controlled test after deployment.

@@ -1,0 +1,152 @@
+LIANZON AUTO V8 — PAGE-LEVEL SEO KEYWORD MAP
+Last updated: 2026-11-10
+
+PURPOSE
+The two business lines have separate search-intent clusters and landing pages:
+1) New and used whole vehicles from China (equal core business line).
+2) Wholesale automotive spare parts from China (equal core business line).
+The Kazakhstan page is a destination-market cluster inside the whole-vehicle topic. Model guides and parts-category pages are narrower long-tail clusters.
+
+IMPORTANT
+These are page-targeting phrases, not measured search-volume claims. They should be used naturally in page titles, H1/H2 headings, descriptions, body copy, image alt text and internal anchor text. Do not repeat exact-match phrases unnaturally. Search volume, difficulty and conversion data must be validated later in Google Search Console / keyword research tools after launch. Google does not use the meta-keywords tag for web ranking; the site therefore relies on visible semantic content and page-level metadata, not a meta-keywords tag.
+
+A. WHOLE-VEHICLE EXPORT CLUSTER
+/en/ or /zh/ etc. index.html
+  EN primary: China used vehicle exporter; used cars from China
+  EN secondary: used car export from China; China used car sourcing; used vehicles for overseas dealers
+  ZH: 中国二手车出口；中国二手车出口商；中国二手车采购
+  RU: экспорт подержанных автомобилей из Китая; поставщик автомобилей из Китая
+  AR: تصدير السيارات المستعملة من الصين; سيارات مستعملة من الصين
+  ES: exportación de vehículos usados de China; coches usados de China
+  Search intent: exporter / supplier discovery; keep the page vehicle-first.
+
+/[lang]/vehicles.html
+  EN primary: used cars from China for export; China used car sourcing
+  EN secondary: wholesale used SUVs from China; used sedans for export; China vehicle supplier
+  ZH: 中国二手车车型采购；中国出口 SUV；中国出口轿车
+  RU: подержанные автомобили из Китая оптом; автомобили из Китая на экспорт
+  AR: سيارات مستعملة من الصين للتصدير; توريد سيارات صينية مستعملة
+  ES: coches usados de China para exportación; proveedor de vehículos de China
+  Search intent: category browsing and model discovery.
+
+/[lang]/kazakhstan.html
+  EN primary: China used car export to Kazakhstan
+  EN secondary: used cars from China to Kazakhstan; import cars from China Kazakhstan; Khorgos vehicle handover
+  ZH: 中国二手车出口哈萨克斯坦；中国汽车出口哈萨克斯坦；霍尔果斯车辆交接
+  RU: экспорт автомобилей из Китая в Казахстан; автомобили из Китая в Казахстан; доставка авто до Хоргоса
+  AR: تصدير السيارات من الصين إلى كازاخستان
+  ES: exportación de coches de China a Kazajistán; importar coches de China a Kazajistán
+  Search intent: destination-specific vehicle sourcing and China-side export handover. This page is not a promise of customs clearance or Kazakhstan-side delivery.
+
+/[lang]/tucson.html
+  EN: Hyundai Tucson from China; China used Hyundai Tucson sourcing; Tucson model-year and trim check
+  ZH: 中国现代途胜二手车；现代途胜中国车型采购
+  RU: Hyundai Tucson из Китая; подбор Hyundai Tucson
+  AR: هيونداي توسان من الصين
+  ES: Hyundai Tucson de China; búsqueda de Hyundai Tucson
+
+/[lang]/sportage.html
+  EN: Kia Sportage from China; China used Sportage sourcing; Sportage trim comparison
+  ZH: 起亚狮铂拓界；中国 Kia Sportage 采购
+  RU: Kia Sportage из Китая; подбор Kia Sportage
+  AR: كيا سبورتاج من الصين
+  ES: Kia Sportage de China
+
+/[lang]/cs55-plus.html
+  EN: Changan CS55 Plus from China; used CS55 Plus sourcing
+  ZH: 长安 CS55 PLUS 二手车；长安 CS55 PLUS 出口
+  RU: Changan CS55 Plus из Китая
+  AR: شانجان CS55 بلس من الصين
+  ES: Changan CS55 Plus de China
+
+/[lang]/haval-jolion.html
+  EN: Haval Jolion from China; Haval Jolion used vehicle sourcing
+  ZH: 哈弗初恋；Haval Jolion 中国车型采购
+  RU: Haval Jolion из Китая
+  AR: هافال جوليان من الصين
+  ES: Haval Jolion de China
+
+/[lang]/jetour-x70.html
+  EN: Jetour X70 from China; Jetour X70 sourcing guide
+  ZH: 捷途 X70 二手车；捷途 X70 中国采购
+  RU: Jetour X70 из Китая
+  AR: جيتور X70 من الصين
+  ES: Jetour X70 de China
+
+/[lang]/camry.html
+  EN: Toyota Camry from China; used Camry sourcing from China
+  ZH: 丰田凯美瑞中国二手车；凯美瑞出口采购
+  RU: Toyota Camry из Китая
+  AR: تويوتا كامري من الصين
+  ES: Toyota Camry de China
+
+B. AUTOMOTIVE SPARE-PARTS EXPORT CLUSTER (SEPARATE BUSINESS LINE)
+/[lang]/spare-parts.html
+  EN primary: auto parts export from China; wholesale auto parts supplier China
+  EN secondary: automotive spare parts wholesale China; car parts exporter China; bulk auto components
+  ZH: 中国汽车零配件出口；中国汽车配件批发；汽车零部件供应商
+  RU: экспорт автозапчастей из Китая оптом; поставщик автозапчастей из Китая
+  AR: تصدير قطع غيار السيارات من الصين بالجملة
+  ES: exportación mayorista de repuestos de China; proveedor de repuestos de China
+  Search intent: wholesale buyer / distributor; avoid used-car terms as the primary theme.
+
+/[lang]/engine-transmission-parts.html
+  EN: engine parts exporter China; gearbox parts wholesale China; engine assembly sourcing
+  ZH: 中国发动机零配件出口；中国变速箱配件批发
+  RU: экспорт двигателей и коробок передач из Китая
+  AR: تصدير المحركات وناقل الحركة من الصين
+  ES: exportación de motores y transmisiones de China
+
+/[lang]/body-lighting-parts.html
+  EN: body parts export from China; auto headlights wholesale China; bumper and fender sourcing
+  ZH: 中国汽车车身件出口；汽车大灯出口；保险杠批发
+  RU: экспорт кузовных деталей и автомобильной оптики из Китая
+  AR: تصدير قطع الهيكل والإضاءة من الصين
+  ES: exportación de carrocería e iluminación de China
+
+/[lang]/suspension-brake-parts.html
+  EN: suspension parts wholesale China; brake parts exporter China; shock absorbers and control arms
+  ZH: 中国汽车悬挂零件出口；制动系统配件批发
+  RU: экспорт деталей подвески и тормозов из Китая
+  AR: تصدير قطع التعليق والفرامل من الصين
+  ES: exportación de suspensión y frenos de China
+
+/[lang]/electrical-maintenance-parts.html
+  EN: automotive electrical parts China; car maintenance parts wholesale; filters and sensors sourcing
+  ZH: 中国汽车电气件出口；汽车保养件批发
+  RU: экспорт автоэлектрики и расходников из Китая
+  AR: تصدير قطع الكهرباء والصيانة للسيارات من الصين
+  ES: exportación de electricidad y mantenimiento automotriz de China
+
+INTERNAL LINKING RULES
+- Homepage and top navigation give whole-vehicle pages the dominant prominence.
+- The Kazakhstan destination page is linked from the homepage and vehicle hub, and links back to relevant vehicle guides and the quote page.
+- Each model guide links to the vehicle hub and a pre-filled vehicle inquiry path.
+- The spare-parts hub links to its four category pages; each category page links back to the parts hub and a pre-filled parts inquiry path.
+- Shared contact/service pages are legitimate utility pages, not keyword substitutes for either business line.
+- Language switches preserve the same page slug in the target language directory.
+
+PUBLISHING / MEASUREMENT
+- Submit /sitemap.xml in Google Search Console after deployment.
+- Verify that canonical URLs return HTTP 200 and are not blocked by robots/noindex.
+- Inspect the 5 language directories separately; verify hreflang reciprocity in Google's URL Inspection where available.
+- Review Search Console query/page reports after sufficient crawl and impression data accumulates; refine titles and content from actual search queries.
+- Rankings and indexing are not guaranteed by metadata or sitemap submission alone.
+
+
+D. GLOBAL BRAND / MARKET HUB CLUSTER (V8)
+/[lang]/index.html
+  Positioning: global new and used vehicle export plus automotive-parts wholesale procurement; international logistics and destination delivery are arranged according to each order and the parties’ agreement. Do not make the global homepage appear Kazakhstan-only.
+/[lang]/markets.html
+  EN: China vehicle export markets; international vehicle sourcing from China; China auto exporter for global buyers.
+  ZH: 中国汽车出口市场；中国汽车国际采购；中国整车出口供应商。
+  RU: рынки экспорта автомобилей из Китая; подбор автомобилей в Китае для зарубежных покупателей.
+  AR: أسواق تصدير السيارات من الصين؛ توريد السيارات من الصين للمشترين الدوليين.
+  ES: mercados de exportación de vehículos desde China; vehículos de China para compradores internacionales.
+  Kazakhstan remains a dedicated focus-market section under the global Markets hub. International coverage explicitly includes Central Asia, Latin America, Africa, Europe and the Middle East.
+
+V8 CONTENT POLICY
+- The global homepage presents whole-vehicle export and automotive-parts wholesale procurement as two equal business lines of an international China-based trade company.
+- Kazakhstan is labelled as one focus market, never as the exclusive service area.
+- No destination-specific operational, customs or delivery guarantee is made without checking the buyer, product and route.
+- Original V5 image assets are retained byte-for-byte and reused in the homepage category cards.
