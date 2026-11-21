@@ -76,8 +76,8 @@
 .business-choice-card:before{content:"";position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;transition:transform .5s ease}
 .business-choice-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.22))}
 .business-choice-card:hover:before{transform:scale(1.04)}
-.business-vehicles:before{background-image:url('assets/first-suv.png')}
-.business-parts:before{background-image:url('assets/parts-warehouse.jpg')}
+.business-vehicles:before{background-image:url('assets/first-suv.webp')}
+.business-parts:before{background-image:url('assets/parts-warehouse.webp')}
 .business-choice-number{font-size:10px;letter-spacing:.16em;font-weight:800;color:rgba(255,255,255,.8)}
 .business-choice-content{max-width:490px}
 .business-choice-content>span{font-size:10px;letter-spacing:.16em;font-weight:800;color:rgba(255,255,255,.75)}
@@ -181,8 +181,8 @@
 
 /* V8 global brand and destination hub refinements */
 .business-parts{background:#30363b}
-.business-parts:before{background-image:url('assets/parts-warehouse.jpg')!important;background-position:center 58%}
-.business-vehicles:before{background-image:url('assets/first-suv.png')}
+.business-parts:before{background-image:url('assets/parts-warehouse.webp')!important;background-position:center 58%}
+.business-vehicles:before{background-image:url('assets/first-suv.webp')}
 .business-choice-card{min-height:300px}
 .home-categories{padding-top:72px;padding-bottom:68px}
 .home-category-cta{margin-top:26px}
@@ -285,9 +285,17 @@ nav a{font-size:14.5px}
 .company-map-label{font-size:12px;font-weight:750;color:#555}
 .company-map-wrap iframe{width:100%;height:280px;border:0;border-radius:12px;background:#e9ece8}
 .company-map-wrap>a{font-size:12px;font-weight:800;text-decoration:underline;text-underline-offset:3px;justify-self:start}
-.telegram-icon{background:#229ED9!important;color:#fff!important}
-.rail-telegram .rail-brand-icon{background:#229ED9}
-.mobile-telegram{background:#229ED9!important;border-color:#229ED9!important;color:#fff!important}
-.telegram-main{background:#229ED9;color:#fff;border-color:#229ED9}
+.telegram-icon{background:transparent!important;color:inherit!important}
+.rail-telegram .rail-brand-icon{background:transparent;color:inherit}
+.mobile-telegram{background:#fff!important;border-color:#e2e3e6!important;color:#111!important}
+.telegram-main{background:#fff;color:#111;border-color:#111}
 @media(max-width:900px){.wrap{width:min(calc(100% - 30px),var(--max))}.hero{gap:26px}.hero h1{font-size:46px}.hero-image{height:400px}.vehicle-photo{height:240px}.section{padding:64px 0}.contact{gap:30px;padding-bottom:100px}.parts-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.company-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.contact-rail{display:none}.mobile-contact{grid-template-columns:repeat(4,minmax(0,1fr))}.mobile-contact a{height:46px;font-size:9px}}
 @media(max-width:600px){.wrap{width:min(calc(100% - 30px),var(--max))}.hero h1{font-size:36px}.hero-image{height:330px}.section{padding:52px 0}.content-shell{width:min(calc(100% - 30px),var(--max));padding-top:28px}.content-hero h1{font-size:32px}.parts-product-grid{grid-template-columns:1fr}.parts-product-media{height:210px}.parts-product-card{padding:13px}.company-profile{padding:19px}.company-detail-grid{grid-template-columns:1fr}.company-map-wrap iframe{height:230px}.mobile-contact{left:7px;right:7px;bottom:7px;gap:5px;padding:6px}.mobile-contact a{gap:4px;height:44px;font-size:9px}.mobile-app-icon{width:25px;height:25px;flex-basis:25px}.contact{padding-bottom:106px}}
+
+/* Contact page: equal 2x2 parallel grid (WhatsApp | Email / Telegram | WeChat) */
+.contact-buttons.contact-grid-four{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,52px);gap:12px;margin:28px 0 22px;align-items:stretch}
+.contact-buttons.contact-grid-four .contact-main{height:52px;min-width:0;width:100%;margin:0;gap:10px;justify-content:space-between;white-space:nowrap}
+.contact-buttons.contact-grid-four .email{display:flex;align-items:center}
+.contact-buttons.contact-grid-four .wechat-card{display:flex;align-items:center;justify-content:space-between;background:#fff;color:#111}
+.contact-buttons.contact-grid-four .wechat-card small{font-size:11px;color:#666;font-weight:600}
+@media(max-width:520px){.contact-buttons.contact-grid-four{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,48px);gap:9px}.contact-buttons.contact-grid-four .contact-main{height:48px;padding:0 12px;font-size:12px}.contact-buttons.contact-grid-four .wechat-card small{font-size:9px}}
