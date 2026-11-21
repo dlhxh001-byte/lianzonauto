@@ -150,3 +150,13 @@ V8 CONTENT POLICY
 - Kazakhstan is labelled as one focus market, never as the exclusive service area.
 - No destination-specific operational, customs or delivery guarantee is made without checking the buyer, product and route.
 - Original V5 image assets are retained byte-for-byte and reused in the homepage category cards.
+
+
+V9 UPDATE (2026-11-21)
+- Six language directories: en, zh, ru, ar, es, fr.
+- 17 localized HTML pages per language; 102 localized pages in total.
+- Spare-parts hub now features nine product families: filter service kits; brake pads/shoes; wiper blades; bulbs; brake discs/drums; chassis wear parts; body panels; leaf springs/suspension upgrades; spark plugs.
+- Two product image placeholders are reserved for future uploads.
+- Company details and a city-level Google Maps embed are shown on Contact pages. The map is centered on Guangzhou and is not a street-address pin.
+- Telegram replaces Instagram in contact links: https://t.me/lianzon_auto.
+- French hreflang and sitemap entries are included.
