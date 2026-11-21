@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Lianzon Auto Markets | Redirecting</title>
+  <meta name="description" content="International vehicle sourcing and export markets from China.">
+  <link rel="canonical" href="https://lianzonauto.com/en/markets.html">
+  <script>
+    (function(){
+      var supported=['zh','en','ru','ar','es'];
+      var preferences=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'']).map(function(x){return String(x).toLowerCase();});
+      var language='en';
+      for(var i=0;i<preferences.length;i++){
+        var candidate=preferences[i].split('-')[0];
+        if(supported.indexOf(candidate)!==-1){language=candidate;break;}
+      }
+      window.location.replace('./'+language+'/markets.html');
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=./en/markets.html"></noscript>
+</head>
+<body><p>Lianzon Auto — <a href="./en/markets.html">Open Markets in English</a>.</p></body>
+</html>
