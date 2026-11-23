@@ -1,0 +1,84 @@
+LIANZON AUTO V9 — COMPLETE WEBSITE PACKAGE
+Build date: 2026-11-21
+Base package: Lianzon_Auto_V8_Parts_Background_Updated_20261111.zip
+
+1. DELIVERABLE STRUCTURE
+- Six localized directories: /en, /zh, /ru, /ar, /es and /fr.
+- 17 static HTML pages in each language directory; 102 localized pages total.
+- Existing language directories, root entry pages, shared CSS/JavaScript, configuration, assets, robots.txt, sitemap.xml, keyword map and V5 asset manifest are retained.
+- The root index language redirect recognizes zh, en, ru, ar, es and fr, with English as fallback.
+
+2. HOMEPAGE POSITIONING
+- Reworked the six localized homepages to describe Lianzon Auto as a China-based, hands-on automotive sourcing and cross-border trade team.
+- The Chinese homepage uses the requested team kicker, headline, subheadline and team/service description.
+- The six homepages present whole-vehicle export and automotive-parts wholesale procurement as two business lines, without assigning a primary/secondary hierarchy.
+- International market content continues to identify Central Asia, Russia, Africa, Latin America and wider global markets, while Kazakhstan remains a focus market rather than the only destination.
+
+3. COMPANY PROFILE AND MAP
+- Added Guangzhou Lianzong Trading Co., Ltd. / 广州联纵贸易有限公司 to all six Contact pages.
+- Added the supplied company email, WhatsApp number, Telegram account, WeChat ID and office hours.
+- Added the supplied business-scope text in localized form.
+- Added a Google Maps embed centered on Nansha District, Guangzhou. The map marker is district-level only; no street address or exact office pin is published.
+
+4. CONTACT CHANNELS AND FORM
+- Replaced Instagram contact links with Telegram: https://t.me/lianzon_auto.
+- Each Contact page retains one primary Telegram CTA below the main WhatsApp route; duplicate secondary/floating Telegram links were removed from Contact pages. Other pages retain the site-wide quick-contact Telegram entry points.
+- WhatsApp remains the primary contact route; email and WeChat remain available.
+- All six Contact forms point to the same FormBoost endpoint: https://formboost.app/f/mnadoc5l.
+- No live FormBoost submission was sent during package QA, to avoid creating an unsolicited enquiry. Perform one controlled test after deployment and verify receipt in the FormBoost account.
+
+5. AUTO-PARTS CATALOG
+- Added nine product families to all six localized spare-parts pages:
+  1) Filter service kits (air / oil / cabin filters)
+  2) Brake pads / brake shoes
+  3) Wiper blades / refill strips
+  4) Common bulbs (halogen / LED / signal / brake)
+  5) Brake discs / brake drums
+  6) Chassis and suspension wear parts
+  7) Body panels and exterior parts
+  8) Leaf springs / suspension upgrades
+  9) Spark plugs (nickel / platinum / iridium)
+- Six user-supplied photos were placed in matching categories and optimized as WebP assets: air filter, brake pads, brake shoes, wiper blade, headlamp bulb and signal/brake bulb.
+- Two future photo positions remain reserved in categories 8 and 9. Unpictured categories 5–7 use neutral graphic placeholders rather than fabricated product photographs.
+- The product cards include SKU/VIN/OE matching reminders and an illustrative-image/quotation disclaimer.
+
+6. LAYOUT AND RESPONSIVE STYLES
+- Applied a moderate reduction to overall layout scale, typography and spacing while retaining mobile-friendly sizing and touch-target rules.
+- The stylesheet includes responsive rules inherited from V8 and the new V9 overrides.
+- Full browser visual regression could not be completed: local Chromium navigation was blocked by the execution environment. This report therefore does not claim pixel-level desktop/tablet/mobile visual approval.
+
+7. STATIC TECHNICAL QA PERFORMED
+- Verified 102 localized HTML pages across six language directories (17 per language).
+- Verified that each localized page contains a non-empty title, meta description, canonical URL and H1.
+- Verified six-language hreflang coverage plus x-default on the localized pages.
+- Parsed JSON-LD blocks as valid JSON.
+- Verified unique titles and meta descriptions within each language directory.
+- Verified local href/src references and image references; no missing local image references were found in the six language directories.
+- Verified image alt attributes on localized pages.
+- Verified nine product cards and two reserved image positions in each of the six spare-parts pages.
+- Verified the Nansha District Google Maps embed, company profile, exactly one Telegram CTA and FormBoost endpoint across all six Contact pages.
+- Verified there are no Instagram references in the localized HTML pages.
+- Verified sitemap.xml contains 102 unique localized URLs (17 per language).
+- `node --check` passed for script.js and config.js.
+
+8. TESTS NOT CLAIMED AS COMPLETED
+- No live-domain deployment test, Google indexing confirmation, live FormBoost submission, or real-device touch test was performed.
+- Chromium visual inspection was attempted but blocked by the execution environment; layout should be checked on the deployed website in desktop and mobile browsers.
+- The Google Maps embed requires the visitor's browser/network to access Google Maps.
+- Import eligibility, product certification, customs procedures and destination-market requirements must be confirmed for each transaction with the relevant authorities or qualified local customs representatives.
+
+9. DEPLOYMENT
+- Back up the existing website before replacing files.
+- Extract the ZIP and upload all files/folders inside it directly into the website document root (for example, public_html); do not add an extra outer folder.
+- After deployment, test the root language redirect, all six language homepages, navigation, the parts catalog, Telegram/WhatsApp links, and a controlled FormBoost enquiry.
+- Submit https://lianzonauto.com/sitemap.xml in Google Search Console after deployment.
+- Technical SEO structure does not guarantee indexing, ranking, traffic or enquiries; monitor actual results through Search Console and analytics.
+
+RESULT
+Static package checks passed for localized structure, required metadata, hreflang, JSON-LD, local references, contact links/forms, nine-part catalog, reserved image positions and sitemap. Live deployment and full visual/browser/device regression remain to be performed after upload.
+
+10. V9.1 CONTACT-PAGE CORRECTION (2026-11-21)
+- Updated map search and map link queries in all six Contact pages to Nansha District, Guangzhou.
+- Updated localized map labels and iframe titles to identify a district-level location only.
+- Removed duplicate Contact-page Telegram links from the secondary social row and desktop/mobile quick-contact bars, leaving exactly one main Telegram CTA per Contact page.
+- Re-checked six Contact pages: one Telegram anchor per page, Nansha map query present, company address remains non-specific, FormBoost endpoint unchanged.
