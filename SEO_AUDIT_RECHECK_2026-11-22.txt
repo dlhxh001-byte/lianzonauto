@@ -1,0 +1,56 @@
+LIANZON AUTO — 多语言 SEO 复核与修正报告
+日期：2026-11-22
+处理依据：Lianzon_Auto_SEO_French_Complete_2026-11-22.zip
+
+一、本轮复核后确认的问题及修正
+
+1. JavaScript 法语主字典
+- 原版本的 dict.fr 只明确覆盖英文主字典的 40 个字段，其余字段通过英文默认值继承。
+- 已改为完整、独立的法语主字典，逐项覆盖主字典的 87 个键。
+- 额外业务区块 extraDict.fr 保留，并维持法语翻译。
+- 已检查法语页面使用的 data-i18n 字段、菜单辅助标签、服务四步骤、悬浮联系栏、表单状态信息。
+
+2. 法语静态页面英文残留
+- 对 fr/ 下全部 17 个 HTML 页面重新检查。
+- 本次复核的压缩包中，首页四步流程、页面章节标签、车型图片说明、车型与零配件 FAQ、哈萨克斯坦说明及页脚等用户列出的句子已经是法语，因此未重复改写这些已正确内容。
+- 法语页面图片 alt 已有法语描述且均非空。
+- 保留 English 作为语言名称，以及 Lianzon Auto、车型/品牌名称、WhatsApp、Facebook、WeChat、VIN、OE、OEM、SKU、SUV、MPV、EV、PHEV 等品牌或行业通用缩写。
+
+3. Open Graph og:locale
+- 实际复核发现 102 个语言页面中有 75 个页面需要处理：65 个页面的语言值缺少地区部分，另有 10 个 contact/service 页面缺失标签。
+- 用户提供的审计数字为 79；本次按当前实际压缩包逐页核对，确认受影响页面数为 75。
+- 已统一 102 个页面：zh_CN、en_US、ru_RU、ar_AR、es_ES、fr_FR。
+
+4. 法语 Title 长度
+以下三个标题原先超过 65 个字符，现已缩短，并同步更新 og:title 与 twitter:title：
+- fr/index.html：Export de véhicules et pièces auto de Chine | Lianzon Auto（58字符）
+- fr/kazakhstan.html：Export auto vers le Kazakhstan depuis la Chine | Lianzon Auto（61字符）
+- fr/body-lighting-parts.html：Carrosserie et éclairage auto de Chine | Lianzon Auto（53字符）
+
+5. 法语表单备用邮件
+- 在线 FormBoost 提交失败时生成的备用邮件主题和正文已改为法语。
+- 表单 endpoint、字段名、提交值和 FormBoost 工作流程保持不变。
+
+二、全站回归检查结果
+
+- 六种语言各 17 页，共 102 个语言页面。
+- 102 页的 html lang、Canonical、每页 7 条 Hreflang（含 x-default）目标均正确。
+- Sitemap 共 102 个唯一地址，与 102 个页面的 Canonical 集合一致。
+- 102 页的 og:locale 均已设置为对应语言地区值。
+- OG/Twitter 标题与页面 Title 一致，OG/Twitter 描述与 Meta Description 一致。
+- 各语言没有重复 Title 或重复 Meta Description。
+- 96 个现存 JSON-LD 区块均可解析；没有 JSON-LD 网址与页面 Canonical 不一致的问题。6 个 contact 页面未设置 JSON-LD，未为其新增非必要结构化数据。
+- 所有图片 alt 属性均存在且非空。
+- 6 个 contact 页面均保留指定的 FormBoost endpoint。
+- 根目录 6 个入口页均保留 noindex 设置。
+- 站内本地链接检查：0 个缺失目标。
+- 未发现 Cloudflare 注入代码。
+- script.js 和 config.js 均通过 Node.js 语法检查。
+
+三、本轮未改动的可选项目
+
+- 未新增 .nojekyll：目前没有证据表明部署环境需要它。
+- 未新增自定义 404 页面：这属于独立的网站体验增强，不是本次多语言 SEO 修复的阻断项。
+- 未修改中文页面较短的 Meta Description，也未调整 zh、ru、ar、es 的正文与既有 SEO 文案。
+
+说明：以上是对交付压缩包进行的本地静态检查，不等同于线上服务器部署测试或 Google 实际收录结果。

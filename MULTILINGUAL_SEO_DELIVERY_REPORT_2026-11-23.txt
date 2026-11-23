@@ -1,0 +1,43 @@
+Lianzon Auto - Multilingual SEO and service-page delivery report
+Date: 2026-11-23
+
+Completed changes:
+1. Standardized six root-level entry pages (index, markets, contact, service, vehicles, spare-parts) with one six-language browser preference resolver; fallback is English; noindex,follow and canonical rules retained.
+2. Expanded all six localized service pages with two business lines, sourcing brief, vehicle inspection scope, parts fitment checks, export documents, quotation/cost/timing notes, FAQ and enquiry checklist.
+3. Added visible breadcrumbs and BreadcrumbList JSON-LD to all six service pages and all six contact pages.
+4. Expanded 14 short Chinese meta descriptions; synchronized each with OG description, Twitter description and WebPage JSON-LD description where present.
+5. Replaced OG image alt strings that repeated page titles with localized descriptions matched to the actual og:image asset.
+6. Removed the unused pageMeta table and its runtime metadata override from script.js; kept language dictionaries, extra dictionaries, MENU_LABELS, contact binding and form logic.
+7. Updated sitemap lastmod to 2026-11-23 for 24 substantive page updates (14 Chinese pages plus service/contact across six languages, with overlap counted once).
+
+Explicitly retained:
+- Formal domain: https://lianzonauto.com/
+- Existing canonical/hreflang structure, page URLs, assets, CSS, layout components, form endpoint, contact destinations, 404.html and .nojekyll.
+- Existing SEO titles were not bulk-shortened; no fixed service price or delivery promise was added.
+
+Root entry pages rewritten: 6
+Service pages expanded: 6
+Breadcrumbs added: 12
+Chinese descriptions expanded: 14
+OG image alt values localized: 102
+Sitemap lastmod values updated: 24
+pageMeta references remaining in script.js: 0
+
+Validation results:
+- All 102 localized HTML pages have unique Title and Meta Description values.
+- OG Title and Twitter Title match each page Title; OG Description and Twitter Description match each page Meta Description.
+- All 102 pages retain the expected html lang value and seven hreflang references.
+- Local relative links checked in the 102 language pages: 0 broken.
+- JSON-LD scripts parsed successfully: 108.
+- Service and Contact BreadcrumbList blocks present and parseable: 12 of 12.
+- FormBoost endpoint retained on the six Contact pages: 6 of 6.
+- Sitemap contains 102 unique localized URLs; 24 lastmod values updated to 2026-11-23.
+- Root entry language resolver includes zh/en/ru/ar/es/fr, defaults to English and retains noindex,follow.
+- script.js passes Node syntax validation; pageMeta references remaining: 0.
+- ZIP archive integrity test: passed.
+
+Package scope:
+- 102 localized HTML pages: localized og:image:alt; additional content/metadata updates limited to the pages specified above.
+- 6 root redirect pages: language detection standardized.
+- script.js and sitemap.xml: updated as described.
+- 2 delivery reports included.

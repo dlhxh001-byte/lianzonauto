@@ -1,0 +1,23 @@
+LIANZON AUTO — 404 PAGE AND NOJEKYLL SETUP
+
+Files added at the website document root:
+- .nojekyll: an empty marker file. It is useful when deploying this static site through GitHub Pages because it disables Jekyll processing. On ordinary hosting it is harmless and has no visible effect.
+- 404.html: a responsive, multilingual not-found page (English, Simplified Chinese, Russian, Arabic, Spanish and French). It is intentionally excluded from sitemap.xml and carries no canonical URL.
+
+IMPORTANT: adding 404.html does not by itself guarantee that every hosting provider returns HTTP status 404. The hosting platform must be configured to serve this file as its not-found page.
+
+Common setup:
+- GitHub Pages: place 404.html at the published site root; GitHub Pages recognizes it as the custom 404 page. Keep .nojekyll at the same root.
+- Apache / cPanel hosting: add the following directive to the EXISTING root .htaccess file (do not overwrite existing rules):
+    ErrorDocument 404 /404.html
+- Nginx hosting: add this directive inside the relevant server block, then reload Nginx:
+    error_page 404 /404.html;
+  The hosting administrator should also configure the internal location for /404.html according to the site's existing Nginx rules.
+- Netlify / Cloudflare Pages / other static hosts: configure the platform's custom not-found page to use /404.html if it does not recognize that filename automatically.
+
+After deployment, test a deliberately nonexistent URL such as https://lianzonauto.com/this-page-should-not-exist-404-test and confirm:
+1. The branded multilingual 404 page is displayed.
+2. The browser/network response is HTTP 404, not 200.
+3. The language selector and links navigate to the matching language homepage and sections.
+
+Do not add 404.html to sitemap.xml.

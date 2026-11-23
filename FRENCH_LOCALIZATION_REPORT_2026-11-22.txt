@@ -1,0 +1,48 @@
+RAPPORT DE LOCALISATION FRANÇAISE — VERSION COMPLÈTE
+Date : 22 novembre 2026
+
+Source de travail : Lianzon_Auto_SEO_Final_Fixed_2026-11-22.zip, puis première passe de localisation française.
+
+Périmètre : les 17 pages HTML du répertoire lianzon_webp_grid/fr/.
+
+Corrections de contenu visibles :
+- Tous les intitulés de sections et de navigation restés en anglais ont été traduits.
+- Les badges et cartes d’informations des pages véhicules ont été traduits (catégorie, critères de compatibilité, disponibilité et spécifications).
+- Les questions de FAQ des pages véhicules et pièces automobiles ont été traduites.
+- Les étiquettes de la page Kazakhstan, les précisions logistiques, les avertissements et les références officielles ont été traduits en français. Les URL sources ont été conservées.
+- Les libellés du formulaire, les textes d’aide, les libellés accessibles, les infobulles et les textes alternatifs des images ont été localisés.
+- Les textes de pied de page ont été harmonisés pour couvrir les véhicules neufs et d’occasion ainsi que les pièces automobiles en gros.
+
+Corrections des actions de contact :
+- Les messages préremplis WhatsApp ont été traduits en français.
+- Les sujets et corps des e-mails préremplis ont été traduits en français, y compris les liens réécrits dynamiquement par JavaScript.
+- Le sujet de notification du formulaire a été traduit.
+- Les traductions JavaScript manquantes des étapes de service et du processus ont été ajoutées ; les messages de confirmation WeChat et les sujets e-mail dynamiques sont également localisés en français.
+- La redirection du formulaire français pointe désormais vers https://lianzonauto.com/fr/contact.html?sent=1 au lieu de la page anglaise.
+- L’endpoint FormBoost et les valeurs techniques des champs du formulaire ont été conservés.
+
+Métadonnées et accessibilité :
+- og:locale est réglé sur fr_FR sur les 17 pages françaises.
+- Les attributs alt, title et aria-label visibles par les technologies d’assistance ont été localisés.
+- Le sélecteur conserve « English » comme nom natif de la langue ; les noms de marques, de modèles automobiles et les acronymes techniques usuels (VIN, OE, OEM, SKU, SUV) sont conservés.
+
+Éléments techniques volontairement préservés : URL de page, Canonical, Hreflang, chemins d’images, CSS, chemins de navigation, coordonnées, nom de marque et valeurs techniques internes du formulaire. Le JavaScript a uniquement reçu les chaînes françaises manquantes et la localisation des messages de contact dynamiques ; sa logique métier et le fonctionnement du formulaire sont conservés.
+
+Pages HTML du répertoire français révisées :
+- body-lighting-parts.html
+- camry.html
+- contact.html
+- cs55-plus.html
+- electrical-maintenance-parts.html
+- engine-transmission-parts.html
+- haval-jolion.html
+- index.html
+- jetour-x70.html
+- kazakhstan.html
+- markets.html
+- service.html
+- spare-parts.html
+- sportage.html
+- suspension-brake-parts.html
+- tucson.html
+- vehicles.html

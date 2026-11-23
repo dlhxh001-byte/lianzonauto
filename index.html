@@ -8,16 +8,21 @@
   <meta name="description" content="Lianzon Auto exports vehicles and automotive spare parts from China.">
   <link rel="canonical" href="https://lianzonauto.com/en/">
   <script>
-    (function(){
-      var supported=['zh','en','ru','ar','es','fr'];
-      var preferences=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'']).map(function(x){return String(x).toLowerCase();});
-      var language='en';
-      for(var i=0;i<preferences.length;i++){
-        var candidate=preferences[i].split('-')[0];
-        if(supported.indexOf(candidate)!==-1){language=candidate;break;}
+    (function () {
+      var supported = ['zh', 'en', 'ru', 'ar', 'es', 'fr'];
+      var preferences = (navigator.languages && navigator.languages.length
+        ? navigator.languages
+        : [navigator.language || ''])
+        .map(function (value) { return String(value).toLowerCase(); });
+      var language = 'en';
+      for (var i = 0; i < preferences.length; i++) {
+        var candidate = preferences[i].split('-')[0];
+        if (supported.indexOf(candidate) !== -1) {
+          language = candidate;
+          break;
+        }
       }
-      // Relative URL also works when this file is opened directly from disk.
-      window.location.replace('./'+language+'/index.html');
+      window.location.replace('./' + language + '/index.html');
     })();
   </script>
   <noscript><meta http-equiv="refresh" content="0;url=./en/index.html"></noscript>

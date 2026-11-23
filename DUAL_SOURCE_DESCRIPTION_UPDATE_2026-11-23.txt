@@ -1,0 +1,35 @@
+LIANZON AUTO — DUAL-SOURCE DESCRIPTION UPDATE
+Date: 2026-11-23
+
+Scope:
+- Updated the six language homepages (en, es, fr, ru, ar, zh).
+- Applied the user-supplied description verbatim to meta description, og:description, twitter:description, and JSON-LD WebPage.description.
+- Added one localized clarification paragraph to each language service page explaining own stock plus vehicles sourced to order.
+- Updated sitemap lastmod only for the six homepages and six service pages to 2026-11-23.
+
+No other site content, layouts, stylesheets, scripts, images, forms, canonical links, hreflang links, or contact details were changed.
+
+Description lengths (Python character count):
+- en: 151 characters
+- es: 157 characters
+- fr: 159 characters
+- ru: 138 characters
+- ar: 125 characters
+- zh: 72 characters
+
+Modified existing files:
+- en/index.html
+- es/index.html
+- fr/index.html
+- ru/index.html
+- ar/index.html
+- zh/index.html
+- en/service.html
+- es/service.html
+- fr/service.html
+- ru/service.html
+- ar/service.html
+- zh/service.html
+- sitemap.xml
+
+New file: - DUAL_SOURCE_DESCRIPTION_UPDATE_2026-11-23.txt

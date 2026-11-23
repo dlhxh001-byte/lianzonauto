@@ -47,3 +47,10 @@
 ## V9.1 correction (2026-11-21)
 - Google Maps center moved from Guangzhou city center to Nansha District, Guangzhou. The company address remains at city/province level and no street number is displayed.
 - Contact pages now show one primary Telegram CTA; redundant secondary/floating Telegram links were removed from Contact pages only. The standard quick-contact Telegram links on other pages remain.
+
+
+## 404 and static-host deployment
+- `.nojekyll` is included at the document root for GitHub Pages compatibility; it is harmless on ordinary static hosting.
+- `404.html` is a responsive 404 page with English, Simplified Chinese, Russian, Arabic, Spanish and French copy. It is intentionally excluded from the sitemap.
+- A hosting rule may be required before the host serves `404.html` for missing URLs. See `404_HOSTING_SETUP.txt`; do not overwrite an existing `.htaccess` file.
+- After deployment, test a nonexistent URL and verify that the HTTP response status is 404 (not 200), and test the language selector and navigation links.

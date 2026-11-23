@@ -1,0 +1,15 @@
+LIANZON AUTO — DUAL-SOURCE CONSISTENCY & IMAGE META UPDATE
+Date: 2026-11-23
+Source: Lianzon_Auto_Dual_Source_Descriptions_Final_2026-11-23.zip
+
+Changes:
+- Six language homepages: added visible explanation of own stock plus supplier sourcing to order.
+- Six language homepages: revised model-guide disclaimer so it says model pages are not individual live-vehicle listings.
+- Six language service pages: updated Meta Description and synchronized the identical description across OG, Twitter and JSON-LD WebPage.description.
+- All 114 img references: added accurate width/height based on the corresponding local image asset dimensions.
+- Kept six homepage hero images eager/high-priority (fetchpriority=high); kept 108 below-the-fold images loading=lazy.
+- All 102 language pages: added twitter:image:alt copied from the page-specific localized og:image:alt.
+- Verified sitemap lastmod for the six homepages and six service pages is already 2026-11-23; no sitemap edit was necessary.
+
+Not changed: page titles, canonical, hreflang, H1, styles, scripts, image assets/URLs, form endpoints, contact destinations, root redirects, 404 and .nojekyll.
+Validation: 102 language pages; 114 image references with exact dimensions; 102 Twitter image alt tags; JSON-LD parse and sitemap checks passed.
